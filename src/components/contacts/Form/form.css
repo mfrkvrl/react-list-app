@@ -1,0 +1,26 @@
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+ 
+}
+
+button{
+    width: 6rem;
+    height:3rem;
+    font-size: 1.2rem;
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid black;
+}
+button:active{
+    background-color: #ccc;
+}
+.formInput{
+    width: 30rem;
+    height: 4rem;
+    font-size: 2rem;
+}

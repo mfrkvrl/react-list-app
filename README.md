@@ -1,1 +1,1 @@
-# This is a react based list project. 
+# This is a react based list project. I used create-reactp-app for creating the app, prettier for formating.
