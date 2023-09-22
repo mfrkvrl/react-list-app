@@ -1,0 +1,28 @@
+.listDiv{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    align-items: center;
+    background-color: white;
+}
+
+.nameList{
+    list-style: none;
+    
+}
+
+.phoneList{
+    list-style: none;
+}
+
+.listHeader{
+    font-size: 3rem;
+}
+
+.card{
+    border-bottom: 3px solid #ccc;
+    padding: .5rem ;
+    margin: .5rem;
+    border-radius: 5px;
+}
