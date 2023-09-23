@@ -5,6 +5,7 @@
     width: 53%;
     align-items: center;
     background-color: white;
+    border-radius: 5px;
 }
 
 .nameList{
@@ -25,4 +26,7 @@
     padding: .5rem ;
     margin: .5rem;
     border-radius: 5px;
+}
+.listElementHeader{
+    margin-left:.5rem;
 }

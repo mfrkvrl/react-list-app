@@ -7,6 +7,8 @@ import { useState, useEffect } from "react";
 
 function Contacts() {
   const [contacts, setContacts] = useState([]);
+  const[filterText,setFilterText]=useState("");
+
 
   useEffect(() => {
     console.log(contacts);
@@ -15,8 +17,8 @@ function Contacts() {
   return (
     <div className="contactsContainer">
       <div className="contactsDiv">
-        <Form addContact={setContacts} contacts={contacts} />
-        <List contacts={contacts} />
+        <Form addContact={setContacts} contacts={contacts} filterText={filterText} setFilterText={setFilterText} />
+        <List contacts={contacts} filterText={filterText} />
       </div>
     </div>
   );
